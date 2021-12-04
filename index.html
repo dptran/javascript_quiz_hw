@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Quiz</title>
+    <link rel="stylesheet" href="/static/css/main.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="/static/js/main.js" defer></script>
+</head>
+
+<body>
+
+    <form name="testData" id="testDataForm">
+        <label for="q1">Question 1</label>
+        <input type="string" name="q1" id="q1">
+        
+        <p><label for="q2">Question 2</label>
+        <input type="string" name="q2" id="q2"></p>
+
+        <p><label for="q3">Question 3</label>
+        <input type="string" name="q3" id="q3"></p>
+        
+        <p><label for="q4">Question 4</label>
+        <input type="string" name="q4" id="q4"></p>
+
+        <p><label for="q5">Question 5</label>
+        <input type="string" name="q5" id="q5"></p>
+        
+        <p><label for="q6">Question 6</label>
+        <input type="string" name="q6" id="q6"></p>
+
+        <p><label for="q7">Question 7</label>
+        <input type="string" name="q7" id="q7"></p>
+        
+        <p><label for="q8">Question 8</label>
+        <input type="string" name="q8" id="q8"></p>
+
+        <p><label for="q9">Question 9</label>
+        <input type="string" name="q9" id="q9"></p>
+        
+        <p><label for="q10">Question 10</label>
+        <input type="string" name="q10" id="q10"></p>
+
+        <button type="submit" id="submitButton">Submit</button>
+    </form>
+
+    <div class="container">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Final Score</th>
+                </tr>
+            </thead>
+            <tbody id="data">
+
+            </tbody>
+        </table>
+    </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,40 @@
+1. If you type the following code in the console window, what result will you get? 3 > 2 > 1 === false;
+True
+
+
+2. What will write the message “Hello DataFlair!” in an alert box?
+alert(“Hello DataFlair!”);
+
+
+3. How do you find the minimum of x and y using JavaScript?
+Math.min(x,y)
+
+
+4. Which JavaScript label catches all the values, except for the ones specified?
+default
+
+
+5. Which are the correct “if” statements to execute certain code if “x” is equal to 2?
+if(x == 2)
+
+
+6. Determine the result: String(“Hello”) === “Hello”;
+True
+
+
+7. What is the correct JavaScript syntax to print “DataFlair” in the console?
+console.log(“DataFlair”);
+
+
+8. Which of the following print content on the browser window?
+document.write(“print content”);
+
+
+9.Which method will you use to round the number 24.76 to the nearest integer?
+Math.round(24.76);
+
+
+10. Which of the following statements will show a message as well as ask for user input in a popup?
+prompt()
+
+
