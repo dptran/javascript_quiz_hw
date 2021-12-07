@@ -35,10 +35,10 @@ const check_answers = () => {
 
     for (let i = 0; i < user_answers.length; i++) {
         if (user_answers[i] == correct_answers[i]) {
-            document.getElementById("q" + String(i + 1)).style.backgroundColor = "green";
+            document.getElementById("question" + String(i + 1)).style.backgroundColor = "green";
             total++
         } else {
-            document.getElementById("q" + String(i + 1)).style.backgroundColor = "red";
+            document.getElementById("question" + String(i + 1)).style.backgroundColor = "red";
         }
     }
 

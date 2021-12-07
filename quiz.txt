@@ -30,7 +30,7 @@ console.log(“DataFlair”);
 document.write(“print content”);
 
 
-9.Which method will you use to round the number 24.76 to the nearest integer?
+9. Which method will you use to round the number 24.76 to the nearest integer?
 Math.round(24.76);
 
 
